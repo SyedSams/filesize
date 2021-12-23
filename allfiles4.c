@@ -36,14 +36,13 @@ int main(void)
      
       if (DT_DIR && (file->d_type == 8))
       
-{
+      {
 	    printf("The size of the file is: %ld bytes\n", size);
               kilobytes=size/1024;
              printf("Kilobytes of the file is: %.2lf\n",kilobytes);
           
-	  } 
-  } 
-	  
+        } 
+        }
              printf("Total file is:%d\n",count);
              closedir(dr);  
 	     fclose(fp);  
